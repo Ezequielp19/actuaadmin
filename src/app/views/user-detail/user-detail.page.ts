@@ -323,4 +323,11 @@ export class UserDetailPage implements OnInit {
   goHome(){
     this.router.navigate(['/home'])
   }
+
+ showPassword = false;
+
+  togglePasswordVisibility() {
+    this.showPassword = !this.showPassword;
+  }
+
 }
