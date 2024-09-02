@@ -53,13 +53,13 @@
 <ion-content id="main-content" class="ion-padding">
   <div *ngIf="activeSection === 'usuario'">
     <form [formGroup]="usuarioForm" (ngSubmit)="saveUsuario()">
-<!--       <ion-item>
+      <ion-item>
         <ion-label position="floating">DNI</ion-label>
         <ion-input formControlName="dni"></ion-input>
-      </ion-item> -->
+      </ion-item>
 
 
-<ion-item>
+<!-- <ion-item>
   <ion-label position="floating">Contraseña</ion-label>
   <ion-input 
     formControlName="password" 
@@ -71,7 +71,7 @@
     (click)="togglePasswordVisibility()"
     style="cursor: pointer;">
   </ion-icon>
-</ion-item>
+</ion-item> -->
 
       <ion-item>
         <ion-label position="floating">Contraseña</ion-label>
